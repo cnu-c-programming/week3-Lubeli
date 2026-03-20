@@ -2,7 +2,7 @@
 
 int global_var = 0;
 
-void test_scope(){
+void test_scope() {
     static int static_var = 0;
     int local_var = 0;
 
@@ -14,7 +14,7 @@ void test_scope(){
     printf("local_var: %d\n", local_var);
 }
 
-int main(){
+int main() {
 
     test_scope();
     printf("\n");
